@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+:root{
+    --SoftBlue: hsl(231, 69%, 60%);
+    --SoftRed: hsl(0, 94%, 66%);
+    --GrayishBlue: hsl(229, 8%, 60%);
+    --VeryDarkBlue: hsl(229, 31%, 21%);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px; 
+}
+
+.navlinks{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   /* text-decoration: none;  */
+   
+}
+
+.navlinks a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#login{
+    color: white;
+    padding: 5px 16px ;
+    background-color: var(--SoftRed);
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid white; */
+}
+
+#firstsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 40px 60px;
+}
+
+.illustration{
+    width:45%;
+
+}
+.bookmark{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+#firstsection .bookmark{
+    width: 40%;
+    
+}
+#firstsection div h1{
+    font-size: 40px;
+    padding: 30px 0;
+    margin-top: -95px;
+
+}
+
+#firstsection div p{
+    padding: 35px 0px; 
+    margin-top: -50px;
+    font-size: 14px;
+    /* width: 110%; */
+}
+
+#button{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    /* border-radius: 30px; */
+    justify-content: space-between;
+    /* width: 25%; */
+}
+#get{
+    padding: 10px 16px ;
+    border-radius: 7px;
+    background-color: var(--SoftBlue);
+    /* border: 1px solid white; */
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#get2{
+    padding: 10px 16px ;
+    border-radius: 7px;
+    /* background-color: blue; */
+    border: 1px solid white;
+    color: black;
+    box-shadow: 3px 3px 10px rgb(209, 207, 207);
+    display: inline-block;
+    font-size: 12px;
+}
+
+#secondsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    margin-bottom: 40px;
+    
+}
+.features{
+    padding: 0px 20px;
+    place-items: center;
+    width: 42%;
+}
+.features h3{
+ font-size: 20px;
+ text-align: center;
+ margin-bottom: 10px;
+}
+
+.features p{
+   font-size: 12px;
+    color: var(--GrayishBlue);
+   line-height: 20px;
+}
+
+#thirdsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 40px 180px;
+    gap: 30px;
+}
+
+.click{
+width: 44%;
+}
+
+.click2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 15px;
+    width: 43%;
+
+}
+
+.click2 h3{
+    font-size: 23px;
+    font-weight: 1200;
+}
+
+.click2 p{
+    font-size: 12px;
+    width: 93%;
+    color: var(--GrayishBlue);
+}
+
+#more{
+     padding: 10px 16px ;
+    border-radius: 7px;
+    background-color: var(--SoftBlue);
+    border: 1px solid white;
+    color: #fff;
+    display: inline-block;
+}
+
+ #fourthsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+ } 
+
+    .extension h3{
+   font-size: 20px;
+    padding: 25px 0px;
+ }
+
+ .extension p{
+    font-size: 12px;
+   
+ }
+ .extension{
+ width: 30%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ }
+
+ .browser{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 40px;
+     justify-content: center;
+     margin-top: 20px;
+ }
+
+ .chromeTab, .firefoxTab, .operaTab{
+     background-color: rgb(255, 255, 255);
+     box-shadow: 5px 5px 10px rgb(233, 232, 232) ;
+     padding: 20px 0;
+     text-align: center;
+ }
+
+ .firefoxTab{
+margin-top: 50px;
+ }
+
+ .operaTab{
+     margin-top: 100px;
+ }
+
+ .chrome, .firefox, .opera{
+     width: 30%;
+ }
+
+ .chromeTab h4, .firefoxTab h4, .operaTab h4{
+    margin: 5px 0px 10px;
+    border-bottom: 1px solid rgb(117, 115, 115);
+ }
+
+ .chromeTab p, .firefoxTab p, .operaTab p{
+     margin-bottom: 20px;
+ }
+
